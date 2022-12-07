@@ -20,6 +20,6 @@ mongoose
 app.use("/api/auth",authRoute);
 app.use("/api/post",postRoute);
 
-app.listen("5000", () => {
+app.listen("5001", () => {
     console.log("Backend is running.");
   });
